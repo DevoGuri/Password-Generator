@@ -1,0 +1,104 @@
+/*GLOBAL*/
+
+input:disabled {
+    background: #fff !important;
+    color: #5268d7;
+    font-weight: 800;
+}
+label {
+	padding: 20px 0px;
+	font-weight: 800;
+}
+a,a:hover {
+	color: #fff;
+}
+
+/*HEADER*/
+
+.header {
+	height: 500px;
+	text-align: center;
+	text-transform: capitalize;
+	padding: 10px;
+	background: linear-gradient(to right, #4568dc, #b06ab3);
+}
+/*HR*/
+hr {
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+header {
+	padding: 20px;
+	color: #fff;
+}
+p {
+	width: 70%;
+	padding: 20px;
+	margin: 0 auto;
+}
+/*MAIN BOX*/
+.main {
+	box-shadow: 0px 0px 5px #000;
+	padding: 40px;
+	z-index: 2;
+	background: #fff;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: -200px;
+}
+.password {
+	font-size: 2rem;
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid #4568dc;
+	border-radius: 0px;
+	width: 100%;
+	color: #5268d7;
+}
+.name {
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid #4568dc;
+	border-radius: 0px;
+	width: 100%;
+	color: #5268d7;
+	font-size: 1.4rem;
+}
+
+/*Edit Details*/
+.edit {
+	margin: 20px 0px;
+}
+.btn.btn-danger{
+	background: linear-gradient(to right, #4568dc, #b06ab3);
+	border: none;
+	padding : 10px;
+	width: 250px;
+	font-size: 1rem;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+/*FOOTER*/
+footer {
+	margin-top: 40px;
+	padding: 10px;
+	background: linear-gradient(to left, #4568dc, #b06ab3);
+	color: #fff;
+}
+
+/*Media Query*/
+
+@media (max-width:700px){
+	.main{
+		width:90%;
+		margin-top: -200px;
+	}
+	p {
+		width: 100%;
+	}
+	.header {
+		height: 550px;
+	}
+}
